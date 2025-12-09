@@ -1,3 +1,5 @@
-{{ suni }}
+<app-header [bmwHead]="bmwSignals" [audiHead]="audiSignals" (bmwHeadChange)="pievinotBMW()" (audiHeadChange)="pievinotAudi()"></app-header>
+<br>
 
-<button type="button" (click)="pievinotSuni()">Pievienot suni</button>
+<br>
+{{ coumputedSignals()}}
